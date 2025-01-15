@@ -119,7 +119,8 @@ def decryptRailFence(cipher, key):
 
 # Driver code
 if __name__ == "__main__":
-	print(encryptRailFence("meetmeaftertheparty", 2))
+	inputText = input("Enter the text to encrypt: ")
+	print(encryptRailFence(inputText, 2))
 	#print(encryptRailFence("hello world ", 3))
 	#print(encryptRailFence("defend the east wall", 3))
 	# Now decryption of0 the
